@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: #4682B4;
+}
+
+header {
+    padding: 10px;
+    background-color: #696969;
+}
+
+header h1 {
+    color: #696969;
+    background-color: rgba(255, 127, 80, 0.911);
+}
+
+.hero {
+    background-image: url("../images/1632167725502.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.content img {
+    width:100px
+}
