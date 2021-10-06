@@ -5,19 +5,44 @@
     color: #4682B4;
 }
 
+/* body {
+    font-family:
+    background-color:
+    color: #4682B4;
+}
+*/
+
 header {
-    padding: 10px;
     background-color: #696969;
+    padding: 20px 35px;
 }
 
 header h1 {
+    padding: 10px;
     color: #696969;
+    font-weight:bold;
+    font-size: 36px;
+    display: inline;
+}
+
+header nav{
+    float: right;
+    margin: 0 5px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header div {
     background-color: rgba(255, 127, 80, 0.911);
+    width: 350px
 }
 
 .hero {
     background-image: url("../images/1632167725502.jpg");
-    height: 200px;
+    height: 300px;
+    width: 1540px;
     background-size: cover;
     background-position: center;
     position: relative;
