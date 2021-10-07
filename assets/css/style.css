@@ -1,3 +1,7 @@
+:root {
+    --coral: rgba(255, 127, 80, 0.911);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,25 +22,37 @@ header {
 }
 
 header h1 {
-    padding: 10px;
+    padding: 20px;
     color: #696969;
-    font-weight:bold;
     font-size: 36px;
     display: inline;
 }
 
 header nav{
     float: right;
-    margin: 0 5px;
+    /*space between top and bottom / left and right surrounding the contents inside the nav bar*/
+    margin: -35px 50px;
 }
 
 header nav ul li {
     display: inline;
+    /*space between list items in the nav bar*/
+    padding: 15px;
+}
+
+header nav ul li a {
+    /*this is removing the decoration of the hyperlins*/
+    text-decoration: none;
+    color: var(--coral);
+    /*adding border to bottom of list items*/
+    border-bottom: 3px solid var(--coral);
+    font-size: 22px;
 }
 
 header div {
-    background-color: rgba(255, 127, 80, 0.911);
-    width: 350px
+    background-color: var(--coral);
+    width: 350px;
+    text-align: right;
 }
 
 .hero {
