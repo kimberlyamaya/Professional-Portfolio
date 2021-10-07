@@ -1,5 +1,6 @@
 :root {
     --coral: rgba(255, 127, 80, 0.911);
+    --grey: #696969;
 }
 
 * {
@@ -17,20 +18,20 @@
 */
 
 header {
-    background-color: #696969;
+    background-color: var(--grey);
     padding: 20px 35px;
 }
 
 header h1 {
     padding: 20px;
-    color: #696969;
+    color: var(--grey);
     font-size: 36px;
     display: inline;
 }
 
 header nav{
     float: right;
-    /*space between top and bottom / left and right surrounding the contents inside the nav bar*/
+    /*space between top and bottom / left and right surrounding the list items inside the nav bar*/
     margin: -35px 50px;
 }
 
@@ -51,6 +52,7 @@ header nav ul li a {
 
 header div {
     background-color: var(--coral);
+    /*width of container around header text*/
     width: 350px;
     text-align: right;
 }
@@ -64,6 +66,23 @@ header div {
     position: relative;
 }
 
+.hero h2{
+    background-color: var(--coral);
+    color: var(--grey);
+    font-size: 30px;
+}
+
+.hero div {
+    /*width of container around section .hero h2*/
+    width: 200px;
+    text-align: center;
+    float: right;
+    /*placement on page*/
+    margin: 245px 110px;
+    border: 3px dashed var(--grey)
+}
+
 .content img {
     width:100px
 }
+
