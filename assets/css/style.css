@@ -1,13 +1,13 @@
 :root {
     --coral: rgba(255, 127, 80, 0.911);
     --grey: #696969;
+    --blue: rgba(61, 89, 245, 0.767);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    color: #4682B4;
 }
 
 /* body {
@@ -82,7 +82,29 @@ header div {
     border: 3px dashed var(--grey)
 }
 
-.content img {
-    width:100px
+.content h3 {
+    font-size: 50px;
+    /*pushed h3 text into the right and spaced them out*/
+    padding: 30px 30px 80px 30px;
+    color: var(--blue);
+    border-right: var(--blue);
+    display: flex;
+    /*made content h3 list down in a colum*/
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.about-me {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.sub-content {
+    margin: 40px;
+}
+
+.sub-content img {
+    width: 200px
+}
