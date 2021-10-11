@@ -6,16 +6,15 @@
 
 * {
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     box-sizing:border-box;
 }
 
-/* body {
-    font-family:
-    background-color:
-    color: #4682B4;
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF0D9;
 }
-*/
+
 
 header {
     background-color: var(--grey);
@@ -60,7 +59,7 @@ header div {
 .hero {
     background-image: url("../images/1632167725502.jpg");
     height: 300px;
-    width: 1540px;
+    width: 1519px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -87,7 +86,6 @@ header div {
     /*pushed h3 text into the right and spaced them out*/
     padding: 30px 30px 80px 30px;
     color: var(--blue);
-    border-right: var(--blue);
     display: flex;
     /*made content h3 list down in a colum*/
     flex-direction: column;
@@ -107,11 +105,32 @@ header div {
 }
 
 .about-me img {
+    margin-left: 5px;
     width: 150px;
-    padding: 10px;
 }
 
 .about-me p {
-    margin-left: 20px;
-    padding: 5%;
+    margin-left: 5px;
+    padding-top: 5%;
 }
+
+.contact-me {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.contact-me div {
+    border-left: 2px solid var(--blue);
+}
+
+.contact-me ul li a {
+    text-decoration: none;
+}
+
+.contact-me div ul li a {
+    text-decoration: none;
+}
+
+
