@@ -4,6 +4,8 @@
 
 1. Change content section into sidebar & add border -commit
     a. use flex boxes
+
+
 2. Build about me section - commit
 3. Build work section - commit
     a. use flex boxes
@@ -15,4 +17,7 @@
 8. turn header / nav items into flex boxes
 9. Make headers turn colors when hovered on - commit
 10. Visit why phone and email are not working
-11. Visit why borders on content section h3 not working
+11. font-family add some style
+
+issues:
+    need img and p inline
