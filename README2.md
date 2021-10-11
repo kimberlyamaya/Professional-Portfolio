@@ -11,13 +11,13 @@
 4. Build work section - commit
     a. use flex boxes
     b. use hover to change border color when hovered on 
-5. fix size of hero image
-6. come up with quote for hero section
-7. make sure this is a flex box - commit
-8. turn header / nav items into flex boxes
-9. Make headers turn colors when hovered on - commit
-10. Visit why phone and email are not working
-11. font-family add some style
+5. come up with quote for hero section
+6. make sure this is a flex box - commit
+7. turn header / nav items into flex boxes
+8. Make headers turn colors when hovered on - commit
+9. fix resume link - commit
 
 issues:
     need img and p inline
+    get my ul in a row rather an in list form
+    phone and email links are broken
