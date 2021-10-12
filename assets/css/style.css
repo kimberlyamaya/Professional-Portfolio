@@ -19,25 +19,28 @@
 header {
     background-color: var(--grey);
     padding: 20px 35px;
+    display: flex;
 }
 
 header h1 {
-    padding: 20px;
+    padding-top: 60px;
     color: var(--grey);
     font-size: 36px;
     display: inline;
 }
 
 header nav{
+    display: flex;
     float: right;
     /*space between top and bottom / left and right surrounding the list items inside the nav bar*/
     margin: -35px 50px;
+    padding-left: 425px;
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-flex;
     /*space between list items in the nav bar*/
-    padding: 15px;
+    padding: 45px 20px 0 20px;
 }
 
 header nav ul li a {
@@ -60,6 +63,7 @@ header div {
     /*width of container around header text*/
     width: 350px;
     text-align: right;
+    padding-right: 10px;
 }
 
 .hero {
@@ -87,17 +91,6 @@ header div {
     border: 3px dashed var(--grey);
 }
 
-.content h3 {
-    font-size: 50px;
-    /*pushed h3 text into the right and spaced them out*/
-    padding: 30px 30px 80px 30px;
-    color: var(--blue);
-    display: flex;
-    /*made content h3 list down in a colum*/
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .about-me {
     display: flex;
     justify-content: left;
@@ -108,6 +101,17 @@ header div {
 .about-me div {
     margin: 40px 0 0 40px;
     border-left: 2px solid var(--blue);
+}
+
+.about-me h3 {
+    font-size: 50px;
+    /*pushed h3 text into the right and spaced them out*/
+    padding: 30px;
+    color: var(--blue);
+    display: flex;
+    /*made content h3 list down in a colum*/
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about-me img {
@@ -131,8 +135,19 @@ header div {
 .contact-me div {
     border-left: 2px solid var(--blue);
     height: 80px;
-    padding-top: 25px;
+    padding-top: 10px;
     
+}
+
+.contact-me h3 {
+    font-size: 50px;
+    /*pushed h3 text into the right and spaced them out*/
+    padding: 0 30px 0 28.5px;
+    color: var(--blue);
+    display: flex;
+    /*made content h3 list down in a colum*/
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contact-me div h5 {
@@ -145,6 +160,55 @@ header div {
     text-decoration: none;
     color: var(--blue);
     border-bottom: 2px solid var(--blue);
+}
+
+.work {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.work h3 {
+    font-size: 50px;
+    /*pushed h3 text into the right and spaced them out*/
+    color: var(--blue);
+    display: flex;
+    /*made content h3 list down in a colum*/
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 174px;
+}
+
+.card-main {
+    float: right;
+    padding: 10px 125px;
+    border-left: 2px solid var(--blue)
+}
+
+.card-main img {
+    border: 2px dashed var(--blue);
+    opacity: 0.75;
+}
+
+.card-main img:hover {
+    border: 2px dashed var(--coral);
+    opacity: 1;
+}
+
+.app-title-language {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--coral);
+    color: var(--grey);
+    width: 180px;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 

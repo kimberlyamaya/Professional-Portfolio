@@ -18,6 +18,10 @@
 9. fix resume link - commit
 10. fix twitter link
 11. add style, .hovers
+12. clean css, what is being used, what isn't
+13. readme file 
 
 issues:
-    why is my p box so little, why can't my text go to end of page
+    why does my about me and contact me sections not reach the end of the page
+        have to create line breaks,
+    need to get p text inside img in work section
