@@ -16,8 +16,8 @@
 7. turn header / nav items into flex boxes
 8. Make headers turn colors when hovered on - commit
 9. fix resume link - commit
+10. fix twitter link
+11. add style, .hovers
 
 issues:
-    need img and p inline
-    get my ul in a row rather an in list form
-    phone and email links are broken
+    why is my p box so little, why can't my text go to end of page

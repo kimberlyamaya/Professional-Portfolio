@@ -113,30 +113,39 @@ header div {
 .about-me img {
     margin-left: 5px;
     width: 150px;
+    float: left;
+    padding: 10px;
 }
 
 .about-me p {
-    margin-left: 5px;
-    padding-top: 5%;
+    margin-left: 20px;
+    padding: 10px;
 }
 
 .contact-me {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    align-items: flex-start;
 }
 
 .contact-me div {
     border-left: 2px solid var(--blue);
+    height: 80px;
+    padding-top: 25px;
+    
 }
 
-.contact-me ul li a {
-    text-decoration: none;
+.contact-me div h5 {
+    display: inline;
+    padding: 35px 70px 35px 10px;
+    font-size: 20px;
 }
 
-.contact-me div ul li a {
+.contact-me div h5 a {
     text-decoration: none;
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
+
 
 
