@@ -172,37 +172,44 @@ header div {
 
 .work h3 {
     font-size: 50px;
-    /*pushed h3 text into the right and spaced them out*/
     color: var(--blue);
-    display: flex;
-    /*made content h3 list down in a colum*/
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 174px;
 }
 
 .card-main {
-    float: right;
-    padding: 10px 125px;
+    position: relative;
+    padding: 10px;
     border-left: 2px solid var(--blue)
 }
 
-.card-main img {
-    border: 2px dashed var(--blue);
-    opacity: 0.75;
+.card-even {
+    position: relative;
+    padding: 10px;
 }
 
-.card-main img:hover {
+.card-odd {
+    position: relative;
+    padding: 10px;
+    border-left: 2px solid var(--blue)
+}
+
+.work img {
+    border: 2px dashed var(--blue);
+    opacity: 0.65;
+}
+
+.work img:hover {
     border: 2px dashed var(--coral);
     opacity: 1;
 }
 
 .app-title-language {
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
     background-color: var(--coral);
     color: var(--grey);
     width: 180px;
+    padding: 0 20px 0 20px;
     text-align: center;
 }
 
@@ -210,6 +217,15 @@ header div {
     font-size: 20px;
     font-weight: bold;
 }
+
+.app-cards {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 162px;
+    display: flex;
+    flex-flow: wrap;
+}
+
 
 
 
