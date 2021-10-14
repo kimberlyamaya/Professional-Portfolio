@@ -20,6 +20,7 @@ header {
     background-color: var(--grey);
     padding: 20px 35px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -30,9 +31,6 @@ header h1 {
 }
 
 header nav{
-    display: flex;
-    float: right;
-    /*space between top and bottom / left and right surrounding the list items inside the nav bar*/
     margin: -35px 50px;
     padding-left: 425px;
 }
@@ -73,22 +71,18 @@ header div {
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
 }
 
 .hero h2{
     background-color: var(--coral);
     color: var(--grey);
     font-size: 30px;
-}
-
-.hero div {
-    /*width of container around section .hero h2*/
-    width: 200px;
-    text-align: center;
-    float: right;
-    /*placement on page*/
-    margin: 245px 110px;
+    position: absolute;
     border: 3px dashed var(--grey);
+    bottom: 20px;
+    right: 100px;
+    padding: 2px;
 }
 
 .about-me {
@@ -101,58 +95,52 @@ header div {
 .about-me div {
     margin: 40px 0 0 40px;
     border-left: 2px solid var(--blue);
+    flex: 1
 }
+
 
 .about-me h3 {
     font-size: 50px;
-    /*pushed h3 text into the right and spaced them out*/
     padding: 30px;
     color: var(--blue);
-    display: flex;
-    /*made content h3 list down in a colum*/
-    flex-direction: column;
-    justify-content: space-between;
+    text-align: right;
 }
 
 .about-me img {
-    margin-left: 5px;
     width: 150px;
     float: left;
     padding: 10px;
 }
 
 .about-me p {
-    margin-left: 20px;
-    padding: 10px;
+    padding: 10px 150px 10px 10px;
 }
 
 .contact-me {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .contact-me div {
     border-left: 2px solid var(--blue);
-    height: 80px;
+    height: 130px;
     padding-top: 10px;
+    flex: 1;
     
 }
 
 .contact-me h3 {
     font-size: 50px;
-    /*pushed h3 text into the right and spaced them out*/
-    padding: 0 30px 0 28.5px;
+    padding: 0 27.9px 0 30px;
     color: var(--blue);
-    display: flex;
-    /*made content h3 list down in a colum*/
-    flex-direction: column;
-    justify-content: space-between;
+    text-align: right;
 }
 
 .contact-me div h5 {
     display: inline;
-    padding: 35px 70px 35px 10px;
+    padding: 35px 85px 35px 10px;
     font-size: 20px;
 }
 
@@ -173,6 +161,7 @@ header div {
 .work h3 {
     font-size: 50px;
     color: var(--blue);
+    text-align: right;
 }
 
 .card-main {
@@ -221,11 +210,7 @@ header div {
 .app-cards {
     width: 90%;
     margin: 0 auto;
-    padding-left: 162px;
+    padding-left: 78.9px;
     display: flex;
     flex-flow: wrap;
 }
-
-
-
-
