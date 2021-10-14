@@ -21,6 +21,7 @@ header {
     padding: 20px 35px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -35,30 +36,33 @@ header nav{
     padding-left: 425px;
 }
 
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
 header nav ul li {
     display: inline-flex;
-    /*space between list items in the nav bar*/
     padding: 45px 20px 0 20px;
 }
 
 header nav ul li a {
-    /*this is removing the decoration of the hyperlins*/
     text-decoration: none;
     color: var(--coral);
-    /*adding border to bottom of list items*/
     border-bottom: 3px solid var(--coral);
     font-size: 22px;
 }
 
-header nav ul li a:hover {
+/*remove hover on nav items*/
+/*header nav ul li a:hover {
     background: var(--coral);
     color: var(--grey);
     border-radius: 25% 5%;
-}
+}*/
 
 header div {
     background-color: var(--coral);
-    /*width of container around header text*/
     width: 350px;
     text-align: right;
     padding-right: 10px;
@@ -88,21 +92,21 @@ header div {
 .about-me {
     display: flex;
     justify-content: left;
-    flex-wrap: wrap;
     align-items: flex-start;
+    padding: 30px;
+    padding-left: 100px;
 }
 
-.about-me div {
-    margin: 40px 0 0 40px;
-    border-left: 2px solid var(--blue);
-    flex: 1
+.about-me-content {
+    padding: 10px;
+    border-left: 2px solid var(--blue)
 }
-
 
 .about-me h3 {
     font-size: 50px;
-    padding: 30px;
+    padding: 10px;
     color: var(--blue);
+    padding-left: 50px;
     text-align: right;
 }
 
@@ -112,35 +116,36 @@ header div {
     padding: 10px;
 }
 
+/* give this some style */
 .about-me p {
-    padding: 10px 150px 10px 10px;
+    padding: 10px 200px 10px 10px;
 }
 
 .contact-me {
     display: flex;
     justify-content: left;
-    flex-wrap: wrap;
     align-items: flex-start;
+    padding: 30px;
+    padding-left: 100px;
 }
 
-.contact-me div {
-    border-left: 2px solid var(--blue);
-    height: 130px;
+.contact-me-content {
+    height: 150px;
     padding-top: 10px;
-    flex: 1;
+    border-left: 2px solid var(--blue)
     
 }
 
 .contact-me h3 {
     font-size: 50px;
-    padding: 0 27.9px 0 30px;
+    padding: 10px;
     color: var(--blue);
     text-align: right;
 }
 
 .contact-me div h5 {
     display: inline;
-    padding: 35px 85px 35px 10px;
+    padding: 35px 65px 35px 10px;
     font-size: 20px;
 }
 
@@ -153,42 +158,51 @@ header div {
 .work {
     display: flex;
     justify-content: left;
-    flex-wrap: wrap;
-    align-items: flex-start;
     padding: 30px;
+    padding-left: 100px;
 }
 
 .work h3 {
     font-size: 50px;
+    padding: 10px;
     color: var(--blue);
+    padding-left: 71px;
     text-align: right;
 }
+
 
 .card-main {
     position: relative;
     padding: 10px;
-    border-left: 2px solid var(--blue)
 }
 
-.card-even {
-    position: relative;
-    padding: 10px;
-}
-
-.card-odd {
-    position: relative;
-    padding: 10px;
-    border-left: 2px solid var(--blue)
-}
-
-.work img {
+.card-main img {
+    width: 900px;
+    height: 300px;
     border: 2px dashed var(--blue);
     opacity: 0.65;
 }
 
-.work img:hover {
+.card-main img:hover {
     border: 2px dashed var(--coral);
     opacity: 1;
+}
+
+.card img {
+    width: 440px;
+    height: 150px;
+    border: 2px dashed var(--blue);
+    opacity: 0.65;
+}
+
+.card img:hover {
+    border: 2px dashed var(--coral);
+    opacity: 1;
+}
+
+.card {
+    position: relative;
+    padding: 10px;
 }
 
 .app-title-language {
@@ -210,7 +224,76 @@ header div {
 .app-cards {
     width: 90%;
     margin: 0 auto;
-    padding-left: 78.9px;
     display: flex;
     flex-flow: wrap;
+    border-left: 2px solid var(--blue);
+    padding: 10px;
+}
+
+/*Need to align these side bar headers*/
+/*.sidebar-headers {
+    font-size: 50px;
+    padding: 10px;
+    color: var(--blue);
+}*/
+
+
+/*NEEd to fill in all media queries*/
+
+@media screen and (max-width: 980px) {
+    header {
+        width:100%;
+    }
+
+    .hero {
+        width:100%;
+    }
+
+    header nav ul {
+        margin: 0 auto;
+        width: 100%;
+        padding: 20px;
+        align-items: flex-end;
+    }
+    
+    header nav ul a {
+        font-size: small;
+    }
+
+    .card-main img {
+        width: 600px;
+        height: 300px;
+    }
+    
+    .work {
+        display: inline-flex;
+        padding-left: 70px;
+    }
+ 
+    .app-cards {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .contact-me {
+        display:inline-flex;
+        width: 100%;
+        padding-left: 70px;
+    }
+
+    .contact-me div h5 {
+        padding: 35px 6px 35px 10px;
+    }
+
+    .about-me {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
