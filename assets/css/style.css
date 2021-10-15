@@ -212,7 +212,7 @@ header div {
     background-color: var(--coral);
     color: var(--grey);
     width: 180px;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 20px; 
     text-align: center;
 }
 
@@ -229,14 +229,6 @@ header div {
     border-left: 2px solid var(--blue);
     padding: 10px;
 }
-
-/*Need to align these side bar headers*/
-/*.sidebar-headers {
-    font-size: 50px;
-    padding: 10px;
-    color: var(--blue);
-}*/
-
 
 /*NEEd to fill in all media queries*/
 
@@ -288,12 +280,83 @@ header div {
     .about-me {
         padding-left: 70px;
     }
+
+    .about-me p {
+        padding: 10px 100px 10px 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .about-me {
+        padding-left: 20px;
+    }
 
+    .about-me p {
+        padding: 10px 100px 10px 10px;
+    }
+
+    .work {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+
+    .contact-me {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+
+    header nav {
+        padding-left: 225px;
+    }
+
+    header nav ul {
+        padding: 20px 10px 20px 20px;
+    }
+
+    .card-main img {
+        width: 425px;
+        height: 225px;
+    }
+
+    .card img {
+        width: 325px;
+        height: 125px;
+    }
+
+    .app-title {
+        font-size: 15px;
+    }
+
+    .app-language {
+        font-size: 12px;
+    }
+    
+    .app-title-language {
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 575px) {
+    /*No style from this section will show up in dev tools!!*/
+    header nav {
+        padding-left: 0px;
+    }
 
+    /*Adding padding 10px to all sections*/
+    .about-me {
+        padding: 10px;
+    }
+
+    .work {
+        padding: 10px;
+    }
+
+    /*test to make sure it's working it's not*/
+    .work h3 {
+        color:pink;
+    }
+
+    .contact-me {
+        padding: 10px;
+    }
 }
