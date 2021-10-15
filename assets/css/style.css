@@ -54,13 +54,6 @@ header nav ul li a {
     font-size: 22px;
 }
 
-/*remove hover on nav items*/
-/*header nav ul li a:hover {
-    background: var(--coral);
-    color: var(--grey);
-    border-radius: 25% 5%;
-}*/
-
 header div {
     background-color: var(--coral);
     width: 350px;
@@ -170,7 +163,6 @@ header div {
     text-align: right;
 }
 
-
 .card-main {
     position: relative;
     padding: 10px;
@@ -230,7 +222,6 @@ header div {
     padding: 10px;
 }
 
-/*NEEd to fill in all media queries*/
 
 @media screen and (max-width: 980px) {
     header {
@@ -239,6 +230,10 @@ header div {
 
     .hero {
         width:100%;
+    }
+
+    header nav {
+        padding-left: 250px;
     }
 
     header nav ul {
@@ -295,18 +290,35 @@ header div {
         padding: 10px 100px 10px 10px;
     }
 
+    .about-me h3 {
+        font-size: 40px;
+    }
+
     .work {
         display: inline-flex;
-        padding-left: 20px;
+        padding-left: 16px;
+        width: 100%;
+    }
+
+    .work h3 {
+        font-size: 40px;
     }
 
     .contact-me {
         display: inline-flex;
-        padding-left: 20px;
+        padding-left: 27px;
+    }
+
+    .contact-me h3 {
+        font-size: 40px;
+    }
+
+    .contact-me div h5 {
+        font-size: 15px;
     }
 
     header nav {
-        padding-left: 225px;
+        padding-left: 0px;
     }
 
     header nav ul {
@@ -314,13 +326,13 @@ header div {
     }
 
     .card-main img {
-        width: 425px;
-        height: 225px;
+        width: 280px;
+        height: 125px;
     }
 
     .card img {
-        width: 325px;
-        height: 125px;
+        width: 220px;
+        height: 90px;
     }
 
     .app-title {
@@ -333,30 +345,5 @@ header div {
     
     .app-title-language {
         width: 150px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    /*No style from this section will show up in dev tools!!*/
-    header nav {
-        padding-left: 0px;
-    }
-
-    /*Adding padding 10px to all sections*/
-    .about-me {
-        padding: 10px;
-    }
-
-    .work {
-        padding: 10px;
-    }
-
-    /*test to make sure it's working it's not*/
-    .work h3 {
-        color:pink;
-    }
-
-    .contact-me {
-        padding: 10px;
     }
 }
