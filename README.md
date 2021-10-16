@@ -10,14 +10,14 @@ of coding sparked my interest and I am hooked. It is truly magical.
 
 **Work**
 
-[Refactored Horiseon Website](https://kimberlyamaya.github.io/Horiseon-Refactor)
+[Refactored Horiseon Website](https://kimberlyamaya.github.io/Horiseon-Refactor)  
 More to come, currently working on a password generator using JavaScript.
 
 
 **Contact Me**
 
-[Email](mailto:kimberly_kimbell@yahoo.com)
-[GitHub](https://github.com/kimberlyamaya)
-[Twitter](https://twitter.com/kimamaya2021)
+[Email](mailto:kimberly_kimbell@yahoo.com)  
+[GitHub](https://github.com/kimberlyamaya)  
+[Twitter](https://twitter.com/kimamaya2021)      
 [LinkedIn](https://www.linkedin.com/in/kimberly-amaya-39626521b)
 
