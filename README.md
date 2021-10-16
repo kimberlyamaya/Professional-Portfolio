@@ -21,3 +21,12 @@ More to come, currently working on a password generator using JavaScript.
 [Twitter](https://twitter.com/kimamaya2021)      
 [LinkedIn](https://www.linkedin.com/in/kimberly-amaya-39626521b)
 
+
+**Website Layout**
+
+![Professional Portfolio Layout](assets/images/screenshot-kimberlyamaya.github.io-2021.10.15-18_32_31.png)
+
+
+**Website Link**
+
+https://kimberlyamaya.github.io/Professional-Portfolio/
