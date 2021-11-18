@@ -64,7 +64,7 @@ header div {
 .hero {
     background-image: url("../images/1632167725502.jpg");
     height: 300px;
-    width: 1519px;
+    /*width: 1519px;*/
     background-size: cover;
     background-position: center;
     position: relative;
